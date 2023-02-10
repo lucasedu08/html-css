@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de hover</title>
+    <style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display: inline-block;
+background-color: lightgrey;
+border: 1px solid black;
+padding: 5px;
+height: 20px;
+width: 120px;
+}
+div:hover{
+color: rgb(43, 0, 236);
+
+}
+div > p{
+display: none;
+
+
+}
+div:hover > p{
+display: block;
+
+
+}
+</style>
+</head>
+<body>
+<div>
+teste numero 04
+<p>
+
+texto escondido
+</p>
+</div>
+</body>
+</html>

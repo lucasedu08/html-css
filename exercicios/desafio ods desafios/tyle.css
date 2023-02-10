@@ -1,0 +1,53 @@
+@charset "utf-8";
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: android;
+    src:'conf.otf' url('conf.otf') format('opentype');
+}
+header{
+    background-image: linear-gradient(to bottom, #8bff8b,  transparent);
+ color: white;
+ min-height: 150px;
+ text-align: center;
+ padding-top: 5px;
+}
+header > .p{
+    max-width: 600px;
+    text-align: justify;
+    font-size: 1.2;
+color: white;
+}
+main{
+}
+main{
+    background-color: white;
+   min-width: 300px;
+   max-width: 1000px;
+   margin: auto;
+   margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.u{
+    color: black;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+a:hover{
+text-decoration: underline;
+background-color: rgb(99, 255, 99);
+color: rgb(10, 90, 10);
+transition-duration: 0.5;
+}
+header > h1{
+text-indent: 17px;
+}

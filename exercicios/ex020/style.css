@@ -1,0 +1,14 @@
+@charset "utf-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: lightgray;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+    height: -85px;
+    width: 269px;
+    
+}
