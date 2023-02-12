@@ -43,6 +43,7 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
 }
 
@@ -179,5 +180,8 @@ text-decoration: none;
 footer > a:hover{
     text-decoration: underline;
     color: #c5ebd6;
+}
+.img-qr{
+    width: 80px;
 }
 
