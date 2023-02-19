@@ -1,0 +1,78 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-image: url(../imagens/img-foquete.jpg!d);
+    background-color: black;
+    background-attachment: fixed;
+ background-size: cover;
+}
+div{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+header{
+    position: relative;
+    background-color:black;
+    padding: 10px;
+    background-attachment: fixed;
+}
+header > h1{
+    text-align: center;
+    font-size: 2.8em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+.top{
+   position: absolute;
+
+   right: 10%;
+   top: 10%;
+}
+.cima{
+    position: absolute;
+
+    right: 3%;
+    top: 10%;
+
+}
+.imgpe{
+    position: absolute;
+    border-radius: 50%; 
+    
+    right: 6%;
+    top: 10%;
+}
+article{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 260px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.616);
+
+}
+.bottom{
+font-size: 2.5em;
+text-align: center;
+}
+.link{
+    color: black;
+    border: 1px solid black;
+}
+.link:hover{
+background-color: lightgray;
+translate: 1s;
+}
