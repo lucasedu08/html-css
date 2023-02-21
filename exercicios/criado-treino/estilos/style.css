@@ -9,6 +9,7 @@ body{
     background-color: black;
     background-attachment: fixed;
  background-size: cover;
+ background-size: 100%;
 }
 div{
     color: white;
@@ -58,7 +59,7 @@ article{
     background-color: white;
     border-radius: 10px;
     width: 600px;
-    height: 260px;
+    height: 280px;
     margin: auto;
     margin-top: 20px;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.616);
