@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main{
+    line-height: 1.5em;
+    padding: 10px;
+}
+div{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.459);
+    height: 1300px;
+    width: 300px;
+    padding: 5px;
+   
+    top: 850px;
+    left: 985px;
+}
+.pala{
+    text-align: center;
+    font-size: .8em;
+}
+.jair{
+    text-align: center;
+    background-color: #B0C4DE;
+    width: 300px;
+  height: 30px;
+ padding-top: 5px;
+}
+.hr{
+    margin-top: 5px;
+}
+.p{
+    position: absolute;
+
+ font-size: 1.2em;
+text-decoration: underline;
+margin-top: -20px;
+padding: 4px;
+}
+article{
+    position: absolute;
+
+    top: 200px;
+}
+.mapa{
+    position: relative;
+    width: 50px;
+    height: 50px;
+border-radius: 50% 50%;
+
+
+    top: 40px;
+
+}
+.palavra{
+padding-left:50px;
+}
+h1{
+font-size: 1.8em;
+padding: 5px;
+}
+p{
+    font-size: 1em;
+    font-weight: normal;
+}
+
