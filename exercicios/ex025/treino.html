@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+   <p>
+    <label for="ica">calculadora</label>
+<input type="text" name="ca" id="ica" required oninput="icont.innerHTML = Number(ica.value) + Number(inu.value)"> +
+<input type="text" name="nu" id="inu" required oninput="icont.innerHTML = Number(ica.value) + Number(inu.value)">
+<output id="icont">0</output>
+
+   </p>
+   <legend>gual o seu pais?</legend>
+   <select>
+       <form action="cadastro.php">pais:</form>
+       <optgroup label="america do sul">
+       
+       <option value="MG">Brazil</option>
+       <option value="EQ">Equador</option>
+       </optgroup>
+   </select>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="limpar">
+</body>
+</html>

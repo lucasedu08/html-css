@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,11 @@
     <h1>exemplo de formulário</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
    
+        <p>
+            <label for="inum">número</label>
+            <input type="range" name="num" id="inum" value="5" required oninput="ival.innerHTML = Number(inum.value) + Number(inum.value)">
+           <output id="ival">5</output>
+        </p>
       <input type="submit" value="Enviar">
       <input type="reset" value="limpar">
 </body>
