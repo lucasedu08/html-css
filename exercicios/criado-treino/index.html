@@ -20,19 +20,36 @@
 
     </header>
     <article>
-    <h1 class="bottom">faça o login</h1>
+   <h2 class="bottom">faça o login</h2>
 <br>
-<p>nome do usuario:<input type="text"></p>
-<br>
-<p>email:<input type="email" name="email" id="lang"></p>
-<br>
-<p>senha:<input type="password" name="senha" id="lang"></p>
-<br>
-<p>data de nascimento:<input type="datetime-local" name="senha" id="lang"></p>
-   <br>
-   <p>salvar as configurações <input type="checkbox" name="email" id="lang">
-<br> <br>
-   <a class="link" href="pag003.html">fazer a conta</a>
+<form action="cadastro.php" method="get" autocomplete="off">
+   <p>
+    <label for="ida"></label>
+    <input type="range" name="da" id="ida" max="40" oninput="inum.innerHTML = Number(ida.value) + Number(ida.value)">
+    <output id="inum">5</output>
+   </p>
+    <br>
+    <p>
+        <label for="iname"></label>
+        nome do usuario:<input  type="text" name="nome" id="iname" placeholder="insira o nome" required>
+    
+        
+    </p>
+    <br>
+    <label for="igmail"></label>
+    <p>email:<input type="email" name="gmail" id="igmail" placeholder="insira o E-mail" required></p>
+    <br>
+    <label for="ipass"></label>
+    <p>senha:<input type="password" name="pass" id="ipass" placeholder="insira a Senha" required></p>
+    <br>
+    <label for="idate"></label>
+    <p>data de nascimento:<input type="datetime-local" name="date" placeholder="insira a data de nascimento" required id="idate"></p>
+       <br>
+       <label for="ilang"></label>
+       <p>salvar as configurações <input type="checkbox" name="email"  required id="ilang">
+    <br> <br>
+     <input type="submit" value="Enviar" required>
+</form>
     </article>
 </body>
 </html>

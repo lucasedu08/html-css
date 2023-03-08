@@ -97,14 +97,17 @@ top: -683px;
 .link2{
     text-decoration: none;
 }
-.colo2{
+.inp{
     text-align: center;
     background-color: #F29902;
     border-radius: 8px;
     padding: 10px;
-    height: 30px;
+    height: 40px;
     width: 270px;
     margin-left: 50px;
+}
+article,div,header,body{
+    width: 100%;
 }
  </style>
 </head>
@@ -134,6 +137,7 @@ top: -683px;
             </h2>
 <p class="pal">  Preencha o formulário abaixo para acessar o ebook.</p>
 <br><br>
+<form action="cadastro.php"></form>
 <p class="cor">Nome*</p>
 <abbr title="Preencha este campo."><input type="datetime" name="name" class="mu"></abbr>
 <p class="cor">Email*</p>
@@ -155,8 +159,9 @@ top: -683px;
 <p style="color: rgb(164, 164, 164);">Ao informar meus dados, eu concordo com a<a class="link" href="https://materiais.targettrust.com.br/politica-de-privacidade" target="_blank"> Política de Privacidade.</a></p>
 <br><br>
 <a class="link2" href="">
-    <h2 class="colo2" style="color: white;">Acessar EBook agora! </h2>
+    <h2 class="cor2" style="color: white;"> <input class="inp" type="submit" value="Enviar"> </h2>
 </a>
+</form>
 </div>
 </article>
 </main>
