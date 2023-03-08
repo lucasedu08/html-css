@@ -1,2 +1,19 @@
 @charset "utf-8";
 /*configuraçõea gerais (landscape)*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px #1627a3;
+    padding: 10px;
+}
