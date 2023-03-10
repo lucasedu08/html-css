@@ -3,13 +3,18 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    width: 100vw;
+    height: 100vh;
+}
 body{
     height: 100vh;
     background-image: url(../imagens/img-foquete.jpg!d);
     background-color: black;
-    background-attachment: fixed;
  background-size: cover;
  background-size: 100%;
+ background-repeat: no-repeat;
+ background-position: bottom;
 }
 div{
     color: white;
@@ -59,7 +64,7 @@ article{
     background-color: white;
     border-radius: 10px;
     width: 600px;
-    height: 280px;
+    height: 320px;
     margin: auto;
     margin-top: 20px;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.616);

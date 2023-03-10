@@ -2,5 +2,94 @@
 /* todas as demais midias*/
 
 @media print {
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+    img#phone{display: none;}
+
+img#tablete{ display: none;}
+
+img#print{display: block;}
+
+img#pc{display: none;}
+
+img#tv{display: none;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+        
+       
+    }
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+    main::after{
+        content: 'essa impressão foi feita atraves do site www.cursoemvideo.com';
+        text-decoration: overline;
+        color: black;
+    }
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
+    img#phone
     
+    {display: none;
+    
+    }
+
+    img#tablete
+    
+    { display: block;
+    
+    }
+    
+    img#print
+    
+    {display: none;
+    
+    }
+    
+    img#pc
+    
+    {display: none;
+    
+    }
+    
+    img#tv
+    
+    {display: none;
+    
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+ body{
+background-image: url(../imagens/back-pc.jpg);
+ }
+ img#phone{display: none;}
+
+img#tablete{ display: none;}
+
+img#print{display: none;}
+
+img#pc{display: block;}
+
+img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px) {
+body{
+    background-image: url(../imagens/back-tv.jpg);
+}
+img#phone{display: none;}
+
+img#tablete{ display: none;}
+
+img#print{display: none;}
+
+img#pc{display: none;}
+
+img#tv{display: block;}
 }
