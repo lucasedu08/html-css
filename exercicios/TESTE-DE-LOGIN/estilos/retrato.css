@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+@media screen and (min-width: 500px) {
+    
+
+html{
+    height: 100vh;
+}
+
+header{
+   width: 90vw;
+
+
+ margin-left: -370px;
+
+
+}
+
+main{
+width: 480px;
+
+
+   
+}
+
+.img1{
+    max-width: 800px;
+
+    padding-left: 10px;
+}
+.imag{
+   position: absolute;
+
+   left: 50px;
+}
+div{
+   position: absolute;
+ 
+   left: -80px;
+}
+
+article{
+    position: absolute; 
+  
+    top: 900px;
+    left: -259px;
+ }
+
+.div{
+   position: absolute; 
+ 
+ left: 227px;
+}
+}
+@media screen and (max-width: 1361px) {
+    html{
+        height: 100vh;
+    }
+    
+    header{
+       width: 90vw;
+    
+    
+     margin-left: -370px;
+    
+    
+    }
+    
+    main{
+    width: 480px;
+    
+    
+       
+    }
+    
+    .img1{
+        max-width: 700px;
+    
+        padding-left: 10px;
+    }
+    .imag{
+       position: absolute;
+    
+       left: 50px;
+    }
+    div{
+       position: absolute;
+     
+       left: -80px;
+    }
+    
+    article{
+        position: absolute; 
+      
+        top: 900px;
+        left: -259px;
+     }
+    
+    .div{
+       position: absolute; 
+     
+     left: 227px;
+    }
+}
+    
