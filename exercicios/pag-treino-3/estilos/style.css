@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background-image: url(../imagens/fundo-de-textura-padrao-de-marmore-preto-marmore-da-tailandia-marmore-natural-abstrato-em-preto-e-branco-para-design.jpg);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: center bottom;
+   background-size: cover;
+background-color: black;
+    
+
+}
+
+h1{
+    font-size: 2.3em;
+}
+.ins1{
+
+color: white;
+}
+.ins2{
+  
+    color: white;
+}
+menu{
+    background-color: darkred;
+padding: 5px;
+}
+input{
+    padding: 13px;
+    border-radius: 5px;
+    padding-right: 360px;
+}
+a#link{
+    color: white;
+list-style-type: square;
+text-decoration: none;
+font-size: 1.2em;
+font-weight: bold;
+    padding: 10px;
+
+}
+a#link:hover{
+ text-decoration: underline;
+background-color: orangered;
+}
+
+header{
+ background-color: red;
+ padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+article{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.694);
+    width: 400px;
+    height: 400px;
+
+border-radius: 5px;
+
+    color: white;
+
+    top: -400px;
+    left: 700px;
+}
+iframe{
+    height: 300px;
+   padding-left: 52px;
+}
